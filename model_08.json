@@ -1,15 +1,12 @@
 {
     "hidden_layers": [
-        200,
-        128,
-        86,
-        56,
-        32
+        784,
+        840,
+        86
     ],
     "num_epoch": 15,
-    "optim": "SGD",
-    "lr": 0.01,
-    "momentum": 0.9,
+    "optim": "Adam",
+    "lr": 0.001,
     "batch_size": 64,
     "num_workers": 2,
     "split_ratio": 0.9,

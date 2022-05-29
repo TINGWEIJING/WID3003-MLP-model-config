@@ -1,0 +1,17 @@
+{
+    "hidden_layers": [
+        784,
+        840,
+        128,
+        56
+    ],
+    "num_epoch": 15,
+    "optim": "Adam",
+    "lr": 0.001,
+    "scheduler": "ExponentialLR",
+    "gamma": 0.9,
+    "batch_size": 32,
+    "num_workers": 2,
+    "split_ratio": 0.9,
+    "seed": 42
+}
